@@ -22,8 +22,9 @@
 }
 .banner-image{
     background: url(https://homefirstindia.com/app/uploads/2021/04/homefirst-easy-loans.jpg);
-    background-size: cover;
+    background-size: contain;
     height: 55vh;
+    background-repeat: no-repeat;
 }
 
 .input-group .btn{
@@ -579,6 +580,27 @@ select {
     border: 1px solid #aaa;
     border-radius: 4px;
     width: 100%;
+}
+@media only screen and (max-width:425px) {
+    .elementor-row{
+        display:block!important;
+    }
+    .ps{
+        margin-left: 20px;
+
+
+    }
+    .section-space100{
+        padding-top: 50px;
+    }
+    .section-header{
+        font-size: 35px;
+        font-weight: normal;
+    }
+    .banner-image{
+        height: 20vh;
+    }
+    
 }
 
 /* csss made */
