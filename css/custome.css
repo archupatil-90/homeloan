@@ -98,12 +98,12 @@ h1 {
         border-color: #f51f8a;
     }
     .btn {
-        font-size: 14px;
+        font-size: 13px;
         border-radius: 2px;
         line-height: 12px;
         letter-spacing: 1px;
         text-transform: uppercase;
-        padding: 20px 30px;
+        /* padding: 20px 30px; */
         border: none;
         font-weight: 600;
     }
@@ -425,19 +425,18 @@ input[type=submit] {
     height:80px;
 }
 
-.section-jumbotron h2, .section-jumbotron h1 {
-    font-size: 42px;
-}
 
 .section-features {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 .section-header {
-    font-size: 42px;
+    font-size: 32px;
     font-weight: normal;
+    line-height: 1;
 }
 .feature-title {
+
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -489,24 +488,26 @@ input[type=submit] {
     /* height: 50px; */
 }
 
-select {
+ select {
     word-wrap: normal;
-    width: 98%;
-    height: 40px;
-    border-radius: 10px;
-}
+    width:100%;
+    color: #555555;
+    height: 50px;
+    padding-left: 13px;
+    border-radius: 5px;
+} 
 
 .input-group-addon {
     padding: 6px 12px;
     font-size: 15px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 2;
     color: #555555;
     text-align: center;
     background-color: #eeeeee;
     border: 1px solid #ccc;
     border-radius: 0;
-    height: 38px;
+    height: 52px;
 }
 
 .city-btn{
@@ -551,7 +552,9 @@ select {
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 100%;
+    color: #778191;
 }
+
 
 #form_apply .select2-container--default .select2-selection--single {
     background: transparent;
@@ -574,13 +577,29 @@ select {
     right: 1px;
     width: 20px;
 }
-
 .select2-container--default .select2-selection--single {
     background-color: #fff;
     border: 1px solid #aaa;
     border-radius: 4px;
     width: 100%;
 }
+
+
+.section-jumbotron h2, .section-jumbotron h1 {
+    font-size: 42px !important;
+    color: white;
+}
+.section-jumbotron .lead {
+    font-size: 24px;
+    color: white;
+}
+
+.pull-right {
+    float: right;
+}
+
+
+
 @media only screen and (max-width:425px) {
     .elementor-row{
         display:block!important;
@@ -600,6 +619,10 @@ select {
     .banner-image{
         height: 20vh;
     }
+    .cd-top{
+        right:32px;
+    }
+
     
 }
 
@@ -634,7 +657,8 @@ top bar
 
 /*#navigation > ul > li.has-sub > a:after {position: absolute; top: 22px; right: 11px; width: 8px; height: 2px;
 display: block; background: #dddddd; content: '';}*/
-#navigation>ul>li.has-sub>a:before { position: absolute; right: 14px; font-family: FontAwesome; content: "\f107"; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
+/* 
+#navigation>ul>li.has-sub>a:before { position: absolute; right: 14px; font-family: FontAwesome; content: "\f107"; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; } */
 #navigation ul ul li a .badge { font-size: 10px; background: #f51f8a; padding: 1px 7px; color: #fff; }
 
 /*#navigation > ul > li.has-sub:hover > a:before {top: 23px; height: 0;}*/
