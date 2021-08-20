@@ -227,12 +227,7 @@ h1 {
     position: relative;
 }
 
-.elementor-row {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
+
 .elementor-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -241,12 +236,7 @@ h1 {
     margin-left: auto;
     position: relative;
 }
-.elementor-row {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
+
 .elementor-widget-wrap {
     position: relative;
     width: 100%;
@@ -336,6 +326,7 @@ a{
 
 .contact-one__form input {
     width: 100%;
+ 
     display: block;
     border: none;
     outline: none;
@@ -412,12 +403,12 @@ input[type=submit] {
 }
 
 
-.page-header_bg {
+/* .page-header_bg {
     background-image: url(https://webdevcode.com/wp/pylon/live/wp-content/uploads/2021/01/page-header-bg-1-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .jumbotron img{
     width: 300px;
     height:300px;
