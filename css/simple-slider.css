@@ -14,7 +14,7 @@
 }
 
 .slider > .dragger {
-  background: #f51f8a!important;
+  background: #f51f8a;
   background: -webkit-linear-gradient(top, #f51f8a, #f51f8a);
   background: -moz-linear-gradient(top, #f51f8a, #f51f8a);
   background: linear-gradient(top, #f51f8a, #f51f8a);

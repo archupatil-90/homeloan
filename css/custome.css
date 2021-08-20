@@ -21,10 +21,9 @@
     margin-right: auto;
 }
 .banner-image{
-    background: url(https://homefirstindia.com/app/uploads/2021/04/homefirst-easy-loans.jpg);
-    background-size: contain;
+    /* background: url(https://homefirstindia.com/app/uploads/2021/04/homefirst-easy-loans.jpg); */
+    background-size: cover;
     height: 55vh;
-    background-repeat: no-repeat;
 }
 
 .input-group .btn{
@@ -98,12 +97,11 @@ h1 {
         border-color: #f51f8a;
     }
     .btn {
-        font-size: 13px;
+        font-size: 14px;
         border-radius: 2px;
         line-height: 12px;
         letter-spacing: 1px;
         text-transform: uppercase;
-        /* padding: 20px 30px; */
         border: none;
         font-weight: 600;
     }
@@ -412,6 +410,14 @@ input[type=submit] {
     min-height: 300px;
     margin-bottom: 0;
 }
+
+
+.page-header_bg {
+    background-image: url(https://webdevcode.com/wp/pylon/live/wp-content/uploads/2021/01/page-header-bg-1-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .jumbotron img{
     width: 300px;
     height:300px;
@@ -425,22 +431,45 @@ input[type=submit] {
     height:80px;
 }
 
+.section-jumbotron h2, .section-jumbotron h1 {
+    font-size: 42px;
+}
 
 .section-features {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.section-header {
-    font-size: 32px;
+/* .section-header {
+    font-size: 32px!important;
     font-weight: normal;
-    line-height: 1;
-}
+    line-height: 2px;
+} */
 .feature-title {
-
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 20px;
 
+}
+.city-btn {
+    position: relative;
+    overflow: hidden;
+    padding: 6px 20px;
+    /* margin-top: 12px; */
+    /* margin-right: 5px; */
+    width: 124px;
+    border-radius: 5px;
+    border: 0;
+}
+.form-background {
+    background: #979797;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.city-btn:hover {
+    background: #2478ae;
+    color: white;
 }
 .feature-description {
     font-size: 18px;
@@ -488,44 +517,30 @@ input[type=submit] {
     /* height: 50px; */
 }
 
- select {
+select {
     word-wrap: normal;
-    width:100%;
-    color: #555555;
-    height: 50px;
-    padding-left: 13px;
-    border-radius: 5px;
-} 
+    width: 98%;
+    height: 40px;
+    border-radius: 10px;
+}
 
 .input-group-addon {
     padding: 6px 12px;
     font-size: 15px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1;
     color: #555555;
     text-align: center;
     background-color: #eeeeee;
     border: 1px solid #ccc;
     border-radius: 0;
-    height: 52px;
+    height: 38px;
 }
 
-.city-btn{
-    color: #333;
-    background-color: #d4d4d4!important;
-    border-color: #8c8c8c;
-}
 
-.city-btn {
-    position: relative;
-    overflow: hidden;
-    padding: 6px 25px 6px 25px;
-    margin-top: 12px;
-    margin-right: 5px;
-    width: 124px;
-    border-radius: 5px;
-    border: 0;
-}
+
+
+
 .select2-container--default .select2-selection--single {
     background: transparent;
     border: 1px solid #ccc;
@@ -552,9 +567,7 @@ input[type=submit] {
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 100%;
-    color: #778191;
 }
-
 
 #form_apply .select2-container--default .select2-selection--single {
     background: transparent;
@@ -577,6 +590,7 @@ input[type=submit] {
     right: 1px;
     width: 20px;
 }
+
 .select2-container--default .select2-selection--single {
     background-color: #fff;
     border: 1px solid #aaa;
@@ -585,46 +599,7 @@ input[type=submit] {
 }
 
 
-.section-jumbotron h2, .section-jumbotron h1 {
-    font-size: 42px !important;
-    color: white;
-}
-.section-jumbotron .lead {
-    font-size: 24px;
-    color: white;
-}
 
-.pull-right {
-    float: right;
-}
-
-
-
-@media only screen and (max-width:425px) {
-    .elementor-row{
-        display:block!important;
-    }
-    .ps{
-        margin-left: 20px;
-
-
-    }
-    .section-space100{
-        padding-top: 50px;
-    }
-    .section-header{
-        font-size: 35px;
-        font-weight: normal;
-    }
-    .banner-image{
-        height: 20vh;
-    }
-    .cd-top{
-        right:32px;
-    }
-
-    
-}
 
 /* csss made */
 /*-----------------------------------------
@@ -657,8 +632,7 @@ top bar
 
 /*#navigation > ul > li.has-sub > a:after {position: absolute; top: 22px; right: 11px; width: 8px; height: 2px;
 display: block; background: #dddddd; content: '';}*/
-/* 
-#navigation>ul>li.has-sub>a:before { position: absolute; right: 14px; font-family: FontAwesome; content: "\f107"; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; } */
+#navigation>ul>li.has-sub>a:before { position: absolute; right: 14px; font-family: FontAwesome; content: "\f107"; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
 #navigation ul ul li a .badge { font-size: 10px; background: #f51f8a; padding: 1px 7px; color: #fff; }
 
 /*#navigation > ul > li.has-sub:hover > a:before {top: 23px; height: 0;}*/

@@ -1,268 +1,14 @@
 @charset "utf-8";
 
-/* CSS Document */
-
-/*
-
- Template Name : Borrow - A Loan Company Website Template
- Author : Jitu Chauhan;
- Version: 1.0.5;
-
-+ General css 
-+ Space css
-+ Background & Block color 
-+ Buttons
-+ Input Form
-+ Bullet
-+ Icon
-+ Navigation CSS
-
-+ HOME
-  - Home
-  - Home-1
-  - Home-2
-+ LOAN PRODUCT
-  - Loan Image Listing
-  - Loan Icon Listing
-  - Car Loan Single
-  - Personal Loan Single
-  - Home Loan Single
-  - Education Loan Single
-+ ABOUT US 
-  - About us
-  - Team
-+ BLOG
-  - Blog Listing
-  - Blog Single
-  - Two Column Masonry
-  - Three Column Masonry
-+ FEATURES
-  - Compare Loan
-  - Faq page
-  - Testimonial
-  - 404 Error
-    - Gallery
-      - Filterable Gallery 2 column
-      - Filterable Gallery 3 column
-      - Masonry Gallery
-      - Zoom Gallery
-    - Shortcodes
-      - Tab
-      - Accordion
-      - Alert       
-
-- CONTACT US
-    
-*/
-
-/*-----------------------------------
-General css class
------------------------------------*/
-
-body { font-size: 15px; font-family: 'Poppins', sans-serif; line-height: 1.4; color: #778191; background-color: #f4f6f8; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-h1, h2, h3, h4, h5, h6 { margin: 0px 0px 10px 0px; color: #3c4d6b; font-weight: 500; }
-h1 { font-size: 32px; line-height: 44px; letter-spacing: -1px; }
-h2 { font-size: 24px; line-height: 32px; }
-h3 { font-size: 20px; line-height: 28px; }
-h4 { font-size: 16px; line-height: 1.6; }
-h5 { font-size: 14px; }
-h6 { font-size: 14px; }
-p { margin: 0 0 26px; line-height: 1.6; font-weight: 400; }
-ul, ol { }
-ul li, ol li { line-height: 1.8 }
-a { color: #f51f8a; text-decoration: none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
-a:focus, a:hover { text-decoration: none; color: #15549a; }
-strong { font-weight: 600; }
-blockquote { padding: 10px 20px; margin: 0 0 0px; font-size: 21px; border-left: 5px solid #eff1f4; color: #414346; font-style: italic; line-height: 35px; font-family: 'Merriweather', serif; font-weight: 700; }
-blockquote.alignright { max-width: 50%; }
-blockquote.alignleft { max-width: 50%; }
-p:last-child { margin-bottom: 0px; }
-::selection { background: #ffecb3; color: #333; }
-*, *::before, *::after { transition: all .3s ease-in-out; }
-.text-highlight { color: #ffecb3; }
-.highlight { color: #f51f8a; }
-.italic { }
-.small-text { }
-.listnone { list-style: none; margin: 0px 0px 20px 0px; padding: 0; }
-.required { color: red }
-.lead { color: #3c4d6b; line-height: 30px; font-size: 20px; }
-.lead-strong { }
-.section-title { }
-.text-white { color: #fff; }
-.title-white { color: #fff; }
-.title { color: #3c4d6b; }
-.text-bold { font-weight: 600; }
-.text-black { color: #000000 !important; }
-.text-light { color: #a1a4a8 !important; }
-.text-dark { color: #414855 !important; }
-.text-light-blue { color: #cce4ff; }
-.border-primary { border-color: #15549a !important; }
-.text-primary { color: #15549a !important; }
-.border-default{border-color: #f51f8a !important;}
-.border-top-default{border-top:3px solid #f51f8a;}
-/*-----------------------------------
-Space css class
------------------------------------*/
-
-/*----------------
-margin space
------------------*/
-
-.mb0 { margin-bottom: 0px; }
-.mb5 { margin-bottom: 5px; }
-.mb10 { margin-bottom: 10px; }
-.mb20 { margin-bottom: 20px; }
-.mb30 { margin-bottom: 30px; }
-.mb40 { margin-bottom: 40px; }
-.mb60 { margin-bottom: 60px; }
-.mb80 { margin-bottom: 80px; }
-.mb100 { margin-bottom: 100px; }
-.mt0 { margin-top: 0px; }
-.mt10 { margin-top: 10px; }
-.mt20 { margin-top: 20px; }
-.mt30 { margin-top: 30px; }
-.mt40 { margin-top: 40px; }
-.mt60 { margin-top: 60px; }
-.mt80 { margin-top: 80px; }
-.mt100 { margin-top: 100px; }
-.mr0 { margin-right: 0px; }
-.mr10 { margin-right: 10px; }
-.mr20 { margin-right: 10px; }
-.ml0 { margin-left: 0px; }
-.ml10 { margin-left: 10px; }
-.ml20 { margin-left: 20px; }
-
-/*----------------
-less margin space from top
------------------*/
-.mt-20 { margin-top: -20px; }
-.mt-40 { margin-top: -40px; }
-.mt-60 { margin-top: -60px; }
-.mt-80 { margin-top: -80px; }
-
-/*---------------
-Padding space
------------------*/
-.nopadding { padding: 0px; }
-.nopr { padding-right: 0px; }
-.nopl { padding-left: 0px; }
-.pinside10 { padding: 10px; }
-.pinside20 { padding: 20px; }
-.pinside30 { padding: 30px; }
-.pinside40 { padding: 40px; }
-.pinside50 { padding: 50px; }
-.pinside60 { padding: 60px; }
-.pinside80 { padding: 80px; }
-.pinside100 { padding: 100px; }
-.pdt10 { padding-top: 10px; }
-.pdt20 { padding-top: 20px; }
-.pdt30 { padding-top: 30px; }
-.pdt40 { padding-top: 40px; }
-.pdt60 { padding-top: 60px; }
-.pdt80 { padding-top: 80px; }
-.pdb10 { padding-bottom: 10px; }
-.pdb20 { padding-bottom: 20px; }
-.pdb30 { padding-bottom: 30px; }
-.pdb40 { padding-bottom: 40px; }
-.pdb60 { padding-bottom: 60px; }
-.pdb80 { padding-bottom: 80px; }
-.pdl10 { padding-left: 10px; }
-.pdl20 { padding-left: 20px; }
-.pdl30 { padding-left: 30px; }
-.pdl40 { padding-left: 40px; }
-.pdl60 { padding-left: 60px; }
-.pdl80 { padding-left: 80px; }
-.pdl120 { padding-left: 120px; }
-.pdr10 { padding-right: 10px; }
-.pdr20 { padding-right: 20px; }
-.pdr30 { padding-right: 30px; }
-.pdr40 { padding-right: 40px; }
-.pdr60 { padding-right: 60px; }
-.pdr80 { padding-right: 80px; }
-.x { }
-.y { padding-top: 220px; }
-
-/*---------------
-Section Space
-* Section space help to create top bottom space. 
-*
------------------*/
-.section-space20 { padding-top: 20px; padding-bottom: 20px; }
-.section-space40 { padding-top: 40px; padding-bottom: 40px; }
-.section-space60 { padding-top: 60px; padding-bottom: 60px; }
-.section-space80 { padding-top: 80px; padding-bottom: 80px; }
-.section-space100 { padding-top: 100px; padding-bottom: 100px; }
-.section-space120 { padding-top: 120px; padding-bottom: 120px; }
-.section-space140 { padding-top: 140px; padding-bottom: 140px; }
-
-/*-----------------------------------------
-Background & Block color 
-------------------------------------------*/
-.bg-light { background-color: #fafcfd; }
-.bg-primary { background-color: #eff1f4 !important; color: #778191; }
-.bg-default { background-color: #15549a; color: #87c0ff; }
-.bg-white { background-color: #fff; }
-.outline { border: 1px solid #dee4ee; }
-.link-title { }
-.small-title { font-size: 14px; color: #778191; font-weight: 500; }
-.big-title { font-size: 36px; font-weight: 600; color: #15549a; }
-.capital-title { text-transform: uppercase; font-size: 16px; font-weight: 600; }
-.bdr-btm { }
-.green-text { }
-.bg-boxshadow { -webkit-box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, .5); -moz-box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, .5); box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, .5); }
-.bg-gradient { position: relative;    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f2b70+0,1f2b70+47,943a9e+100&0.9+0,0.9+100 */ background: -moz-linear-gradient(-45deg, rgba(31, 43, 112, 1) 0%, rgba(31, 43, 112, 1) 47%, rgba(148, 58, 158, 1) 100%);    /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, rgba(31, 43, 112, 0.9) 0%, rgba(31, 43, 112, 0.9) 47%, rgba(148, 58, 158, 0.9) 100%);    /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, rgba(31, 43, 112, 0.9) 0%, rgba(31, 43, 112, 0.9) 47%, rgba(148, 58, 158, 0.9) 100%);    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e61f2b70', endColorstr='#e6943a9e', GradientType=1);    /* IE6-9 fallback on horizontal gradient */ }
-.well-box { background-color: #fff; padding: 30px; border-radius: 4px; }
-.bg-yellow-light { background-color: #fff9e0; }
-.bg-pink { background-color: #f51f8a !important; }
-.bg-dark { background-color: #4e5257 !important; }
-.bg-dark-blue { background-color: #023975; }
-.bg-light-blue { background-color: #15549a; }
-.text-pink { color: #f51f8a; }
-
-.card{border-color: #d3dbea; background-color: #f7fafd; border-radius: 3px; margin-bottom: 30px;}
-.card-body{padding: 30px;}
-.card-header{background-color: #f7fafd;}
 
 
 
 
-
-/* Update 16 june 2017*/
-
-/*-----------------------------------------
-Buttons
-------------------------------------------*/
-
-.btn { font-size: 14px; border-radius: 2px; line-height: 12px; letter-spacing: 1px; text-transform: uppercase; padding: 20px 30px; border: none; font-weight: 600; }
-.btn-default { background-color: #f51f8a; color: #fff; border-color: #f51f8a; }
-.btn-default:hover { color: #fff; background-color: #ff389c; border-color: #ff389c; }
-.btn-default.focus, .btn-default:focus { color: #fff; background-color: #d5504f; border-color: #c64241; }
-.btn-primary { background-color: #15549a; color: #fff; }
-.btn-primary:hover { color: #fff; background-color: #2573cb; }
-.btn-primary.focus, .btn-primary:focus { }
-.btn-secondary {
-  color: #fff;
-  background-color: #0B69A5 !important;
-  border-color: #0B69A5 !important;
-}
-.btn-secondary:hover { background-color: #f51f8a; color: #fff; }
-.btn-outline { border: 2px solid #dee4ee; color: #9aa9c3; background-color: transparent; padding: 17px 28px; }
-.btn-outline:hover { border: 2px solid #dee4ee; color: #6a7a94; background-color: #dee4ee; }
-.btn-lg { padding: 25px 50px; font-size: 18px; text-align: center; }
-.btn-sm { padding: 15px 20px; font-size: 12px; text-align: center; }
-.btn-xs { padding: 4px 8px; font-size: 10px; }
-.btn-link { color: #15549a; font-weight: 500; padding-bottom: 4px; border-bottom: 2px solid #15549a; display: inline-block; text-decoration: none; }
-.btn-link:hover { color: #f51f8a; font-weight: 500; padding-bottom: 4px; border-bottom: 2px solid #f51f8a; text-decoration: none; }
-.btn-link.focus, .btn-link:focus { text-decoration: none; border-color: #f51f8a; box-shadow: none; color: #f51f8a; }
-.btn-link-white { color: #fff; font-weight: 500; padding-bottom: 4px; border-bottom: 2px solid #fff; display: inline-block; text-decoration: none; }
-.btn-link-white:hover { border-color: #657bf9; color: #657bf9; }
-.btn-link-orange { }
-.btn-link-white:hover { }
-.btn-default-link { color: #f51f8a; font-weight: 500; text-decoration: none; }
-.btn-default-link:hover { color: #15549a; }
 
 /*-----------------------------------------
 Input Form
+
+
 ------------------------------------------*/
 label { }
 .control-label { text-transform: uppercase; color: #3c4d6b; font-size: 13px; font-weight: 600; }
@@ -271,7 +17,7 @@ label { }
 .form-control:focus { }
 .required { color: red }
 textarea.form-control { border-radius: 2px; height: auto; }
-select { -webkit-appearance: none; background-color: #fff; }
+
 .input-group-text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: .375rem .75rem; margin-bottom: 0; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #555; text-align: center; white-space: nowrap; background-color: #ffffff; border: 2px solid #e6ecef; border-radius: .25rem; margin-right: -1px; }
 
 /*-----------------------------------------
@@ -302,21 +48,7 @@ icon
 .icon { }
 .icon-1x { font-size: 24px; }
 
-/* default icon size of font*/
-.icon-2x { font-size: 48px; }
-.icon-4x { font-size: 68px; }
-`
-.icon-6x { font-size: 88px; }
-.icon-8x { font-size: 108px; }
-.icon-default { color: #f51f8a; }
-.icon-primary { color: #15549a; }
-.icon-secondary { color: #bcbcbc; }
-.dark-line { border-top: 2px solid #2b2e35; }
 
-/*-------- updated v 1.0.2 -------*/
-.fa-primary { }
-.fa-default { color: #f51f8a; }
-.fa-success { color: #6eb232; }
 
 /*-----------------------------------------
 top bar
@@ -543,6 +275,7 @@ index-1
 .hero-tab-block .st-tabs .nav-tabs .nav-item.show .nav-link, .hero-tab-block .nav-tabs .nav-link.active { color: #f51f8a; background-color: white; border-color: #ffffff #ffffff #ffffff #ffffff; }
 .hero-tab-block .nav-tabs { border-bottom: transparent; }
 .hero-tab-block .btn-default { color: #fff; }
+
 .hero-tab-block .btn-default:hover { color: #fff; }
 .hero-tab-block .st-tabs .tab-content { border: transparent; }
 .hero-tab-block .tab-content { border: transparent; }
@@ -671,7 +404,6 @@ compare Student loan table
     Card Landing Page
 -----------------------------------------------------*/
 .header-standard { }
-
 .header-standard.header { padding-bottom: 0px; padding-top: 0px; }
 .top-header { padding-top: 22px; padding-bottom: 22px; }
 .quick-info { float: right; font-size: 16px; color: #414855; font-weight: 600; padding-top: 9px; }
@@ -746,7 +478,9 @@ Service-img
 .service-img { position: relative; }
 .service-content { }
 .service-content>h2 { margin-bottom: 0px; }
-.circle { background-color: #e3f0fe; width: 60px; height: 60px; border: 1px solid #15549a; border-radius: 100px; color: #15549a; margin: -70px auto 40px auto; padding: 10px; text-align: center; line-height: 1.7; }
+.circle { 
+  background-color: #e3f0fe; width: 60px; height: 60px; border: 1px solid #15549a;
+   border-radius: 100px; color: #15549a; margin: 20px auto 40px auto; padding: 10px; text-align: center; line-height: 1.7; }
 .number { font-size: 24px; font-weight: 500; }
 .number-block { text-align: center; }
 .number-title { margin-bottom: 20px; }
@@ -784,9 +518,7 @@ footer
 .widget-footer ul li a:hover { color: #f51f8a; }
 .tiny-footer { background-color: #16191e; font-size: 12px; padding-top: 10px; padding-bottom: 10px; }
 .widget-footer { position: relative; padding-left: 20px; line-height: 32px; }
-/* .widget-footer ul li:before { 
-  font-family: 'FontAwesome'; display: block; position: absolute; left: 0; font-size: 15px; color: #778191;
-   content: "\f105"; } */
+.widget-footer ul li:before { font-family: 'FontAwesome'; display: block; position: absolute; left: 0; font-size: 15px; color: #778191; content: "\f105"; }
 .widget-social { }
 .widget-social ul { }
 .widget-social ul li { line-height: 1.6; margin-bottom: 8px; }
@@ -800,7 +532,7 @@ footer
 /*--------------------------------
 Page header 
 ---------------------------------*/
-.page-header { margin: 0; padding: 175px 0px 80px; min-height: 410px; border: none; background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/page-header.jpg) no-repeat center; background-size: cover; }
+.page-header { margin: 0; padding: 175px 0px 80px; min-height: 410px; border: none; }
 .page-title { margin-bottom: 0px; font-size: 36px; }
 .rate-block { text-align: right; }
 .rate-number { margin-bottom: 0px; line-height: 1; color: #f51f8a; }
